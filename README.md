@@ -18,3 +18,6 @@ $$
 for $z=x+iy$ with $-9/16{\le}x{\le}9/16$ and $-9/16{\le}y{\le}9/16$.
 
 ![](./images/gallery/basic_flat_sin_one_over_z_no_axes.png)
+
+[1] E. Wegert, _Visual_ _Complex_ _Functions:_ _An_ _Introduction_ _with_ _Phase_ _Portraits_
+(Birkhaeuser/Springer New York, 2012)
