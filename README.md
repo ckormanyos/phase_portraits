@@ -5,8 +5,8 @@ A series of computer-algebra notebooks are used to creeat vivid, colorful phase 
 selected functions in the complex plane. The seminal book on this topic (see [1]) describes
 how to make phase plots.
 
-See the [images/gallery]/./images/gallery) folder te view thephase plots.
-Each plot is represented in a colorful $2048{\times}2048$ pixel PNG.
+The full selection of phase plots can be found in the [images/gallery](./images/gallery)
+folder te view thephase plots. Each plot is represented in a colorful $2048{\times}2048$ pixel PNG.
 
 An example is shown below in the image `basic_flat_sin_one_over_z_no_axes.png`.
 Here we show the phase portrait of the function
