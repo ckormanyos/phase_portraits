@@ -12,7 +12,7 @@ An example is shown below in the image `basic_flat_sin_one_over_z_no_axes.png`.
 Here we show the phase portrait of the function
 
 $$
-\sin\left(e^{1/z}\right)
+\sin\left(\dfrac{1}{z}\right)
 $$
 
 for $z=x+iy$ with $-9/16{\le}x{\le}9/16$ and $-9/16{\le}y{\le}9/16$.
