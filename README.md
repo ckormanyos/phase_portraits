@@ -1,21 +1,21 @@
 # phase_portraits
 ckormanyos/phase_portraits creates beautiful color phase portraits of complex functions.
 
-A series of computer-algebra notebooks are used to creeat vivid, colorful phase portraits of
+A series of computer-algebra notebooks are used to create vivid, colorful phase portraits of
 selected functions in the complex plane. The seminal book on this topic (see [1]) describes
-how to make phase plots.
+how to make phase portraits.
 
-The full selection of phase diagrams can be found in the [images/gallery](./images/gallery)
-folder. Each diagram is represented in a colorful $2048{\times}2048$ pixel PNG.
+The full selection of phase portraits can be found in the [images/gallery](./images/gallery)
+folder. Each image is represented in a colorful $2048{\times}2048$ pixel PNG.
 
-An example is shown below in the image `basic_flat_sin_one_over_z_no_axes.png`.
+An example is shown below in `basic_flat_sin_one_over_z_no_axes.png`.
 Here we show the phase portrait of the function
 
 $$
 \sin\left(\dfrac{1}{z}\right)
 $$
 
-for $z=x+iy$ with $-9/16{\le}x{\le}9/16$ and $-9/16{\le}y{\le}9/16$.
+with no aces or grid of any kind, for $z=x+iy$ with $-9/16{\le}x{\le}9/16$ and $-9/16{\le}y{\le}9/16$.
 
 ![](./images/gallery/basic_flat_sin_one_over_z_no_axes.png)
 
