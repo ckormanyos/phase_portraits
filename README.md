@@ -15,7 +15,7 @@ $$
 \sin\left(\dfrac{1}{z}\right)
 $$
 
-with no axes or grid of any kind, for $z=x+iy$ with $-9/16{\le}x{\le}9/16$ and $-9/16{\le}y{\le}9/16$.
+with no axes or grid of any kind, for $z=x+iy$, with $-9/16{\le}x{\le}9/16$ and $-9/16{\le}y{\le}9/16$.
 
 ![](./images/gallery/basic_flat_sin_one_over_z_no_axes.png)
 
