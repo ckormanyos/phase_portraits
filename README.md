@@ -1,5 +1,7 @@
-# phase_portraits
-ckormanyos/phase_portraits creates beautiful color phase portraits of complex functions.
+ckormanyos/phase_portraits
+==================
+
+`ckormanyos/phase_portraits` creates beautiful color phase portraits of complex functions.
 
 A series of computer-algebra notebooks are used to create vivid, colorful phase portraits of
 selected functions in the complex plane. The seminal book on this topic (see [1]) describes
