@@ -1,0 +1,162 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6414,        154]
+NotebookOptionsPosition[      5835,        136]
+NotebookOutlinePosition[      6239,        152]
+CellTagsIndexPosition[      6196,        149]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"f", "[", "z_", "]"}], ":=", 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"(", 
+         RowBox[{"1", "/", "z"}], ")"}], "^", "18"}], ")"}], "-", 
+      RowBox[{"(", 
+       RowBox[{"1", "/", "z"}], ")"}]}], ")"}], "/", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"1", "/", "z"}], ")"}], " ", "-", " ", "1"}], ")"}]}]}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"SetDirectory", "[", 
+   RowBox[{"NotebookDirectory", "[", "]"}], "]"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{"\"\<basic_flat_Campuzano_image01_no_axes.png\>\"", ",", 
+    RowBox[{"DensityPlot", "[", 
+     RowBox[{
+      RowBox[{"Arg", "[", 
+       RowBox[{"f", "[", 
+        RowBox[{"x", "+", 
+         RowBox[{"I", " ", "y"}]}], "]"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", 
+        RowBox[{
+         RowBox[{"-", "3"}], "/", "2"}], ",", 
+        RowBox[{"3", "/", "2"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"y", ",", 
+        RowBox[{
+         RowBox[{"-", "3"}], "/", "2"}], ",", 
+        RowBox[{"3", "/", "2"}]}], "}"}], ",", 
+      RowBox[{"ColorFunction", "->", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"Hue", "[", 
+          RowBox[{"Mod", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"-", "#"}], "/", 
+             RowBox[{"(", 
+              RowBox[{"2", " ", "Pi"}], ")"}]}], ",", "1"}], "]"}], "]"}], 
+         "&"}], ")"}]}], ",", 
+      RowBox[{"ColorFunctionScaling", "->", "False"}], ",", 
+      RowBox[{"MaxRecursion", "->", "2"}], ",", 
+      RowBox[{"Exclusions", "->", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"x", "==", "0"}], "&&", 
+         RowBox[{"y", "==", "0"}]}], "}"}]}], ",", 
+      RowBox[{"PlotPoints", "->", "1152"}], ",", 
+      RowBox[{"Frame", "->", "False"}], ",", 
+      RowBox[{"Axes", "->", "False"}], ",", 
+      RowBox[{"ImagePadding", "->", "0"}], ",", 
+      RowBox[{"PlotRangePadding", "->", "None"}]}], "]"}], ",", 
+    RowBox[{"RasterSize", "->", "2048"}], ",", 
+    RowBox[{"ImageSize", "->", "256"}]}], "]"}], 
+  "\n"}], "\[IndentingNewLine]", 
+ RowBox[{"SystemOpen", "[", 
+  RowBox[{"Directory", "[", "]"}], "]"}], "\n"}], "Input",
+ CellChangeTimes->{{3.976546238446148*^9, 3.976546238446148*^9}, {
+   3.976546306728243*^9, 3.976546309699127*^9}, 3.976546432416794*^9, {
+   3.976546776173311*^9, 3.976546776764221*^9}, {3.976546812053868*^9, 
+   3.976546819442888*^9}, {3.976547554901865*^9, 3.976547555425743*^9}, 
+   3.97660474226803*^9, {3.9766048119799385`*^9, 3.976604834978998*^9}, {
+   3.976604880172785*^9, 3.976604901213146*^9}, {3.976604959514559*^9, 
+   3.976604992244474*^9}, {3.976605043503959*^9, 3.976605079523351*^9}, {
+   3.9766218360393734`*^9, 3.97662185878985*^9}, {3.9766219065493126`*^9, 
+   3.9766219228972034`*^9}, {3.976622130842094*^9, 3.976622233420931*^9}, 
+   3.976635045119625*^9, 3.976679254524671*^9, {3.9768092506077175`*^9, 
+   3.976809320743412*^9}, {3.976809435711649*^9, 3.976809450078837*^9}, {
+   3.976809505159939*^9, 3.976809515071575*^9}, {3.976809640103579*^9, 
+   3.976809646382107*^9}, {3.976809717514797*^9, 3.976809722546789*^9}, {
+   3.976809823064232*^9, 3.976809828627983*^9}, {3.976852503585396*^9, 
+   3.976852592313652*^9}, {3.976852630536192*^9, 3.976852633908234*^9}, {
+   3.976852720089819*^9, 3.976852726841779*^9}, {3.976852781427627*^9, 
+   3.9768527877625084`*^9}, {3.976853287788385*^9, 3.976853304045738*^9}, {
+   3.976853368373472*^9, 3.976853415328169*^9}, {3.976853504857019*^9, 
+   3.976853511112718*^9}, {3.976856846768062*^9, 3.976856851885774*^9}, {
+   3.97685869996554*^9, 3.976858708700794*^9}, {3.97685876390469*^9, 
+   3.976858768948095*^9}, {3.976858941678713*^9, 3.976858991104936*^9}, {
+   3.976859074436775*^9, 3.97685910855962*^9}, {3.976859255001896*^9, 
+   3.976859258416474*^9}, {3.976859372029202*^9, 3.976859374190071*^9}, {
+   3.976859405893354*^9, 3.976859409669372*^9}, {3.9768618884395237`*^9, 
+   3.976861940689644*^9}, {3.976862138781448*^9, 3.9768621408837767`*^9}, {
+   3.976862195458616*^9, 3.976862229008512*^9}, {3.9768623580269794`*^9, 
+   3.976862376571993*^9}, {3.976863251029262*^9, 3.976863253904175*^9}, {
+   3.976863405278036*^9, 3.976863406607378*^9}, 3.97697556647085*^9, 
+   3.97705994301457*^9, 3.977060797853058*^9, {3.978696070796871*^9, 
+   3.978696132819263*^9}, 3.9786961646811543`*^9, {3.9786963578223944`*^9, 
+   3.9786964131596527`*^9}, {3.9786966294182796`*^9, 3.978696683963026*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"4b349670-afe1-fc45-9fe4-ca40c8a2dc22"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\ckorm\\\\Documents\\\\Ks\\\\PC_Software\\\\\
+Mathematica\\\\PhasePortraits\"\>"], "Output",
+ CellChangeTimes->{3.978696419176321*^9, 3.9786964633766365`*^9, 
+  3.9786966875300198`*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"6dcdd262-6786-0240-a498-d0bcb932ed69"],
+
+Cell[BoxData["\<\"basic_flat_Campuzano_image01_no_axes.png\"\>"], "Output",
+ CellChangeTimes->{3.978696419176321*^9, 3.9786964633766365`*^9, 
+  3.9786967466457653`*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"09689c69-5993-3545-a9bc-75dec502046f"]
+}, Open  ]]
+},
+WindowSize->{571.8, 627},
+WindowMargins->{{Automatic, 42}, {45, Automatic}},
+FrontEndVersion->"14.0 for Microsoft Windows (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"5e565c67-cfa4-f349-8050-2788b40035f3"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 4692, 100, 276, "Input",ExpressionUUID->"4b349670-afe1-fc45-9fe4-ca40c8a2dc22"],
+Cell[5275, 124, 295, 4, 52, "Output",ExpressionUUID->"6dcdd262-6786-0240-a498-d0bcb932ed69"],
+Cell[5573, 130, 246, 3, 80, "Output",ExpressionUUID->"09689c69-5993-3545-a9bc-75dec502046f"]
+}, Open  ]]
+}
+]
+*)
+

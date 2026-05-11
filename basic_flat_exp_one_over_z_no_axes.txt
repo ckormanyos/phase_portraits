@@ -1,0 +1,27 @@
+f[z_] := Exp[1/z]
+
+SetDirectory[NotebookDirectory[]]
+
+Export
+[
+  "basic_flat_exp_one_over_z_no_axes.png", 
+  DensityPlot
+  [
+    Arg[f[x + I y]],
+    {x, -9/16, 9/16},
+    {y, -9/16, 9/16}, 
+    ColorFunction -> (Hue[Mod[-#/(2 Pi), 1]] &), 
+    ColorFunctionScaling -> False,
+    MaxRecursion -> 2, 
+    Exclusions -> {x == 0 && y == 0},
+    PlotPoints -> 1152, 
+    Frame -> False,
+    Axes -> False,
+    ImagePadding -> 0, 
+    PlotRangePadding -> None
+  ],
+  RasterSize -> 2048,
+  ImageSize -> 2048
+]
+
+SystemOpen[Directory[]]

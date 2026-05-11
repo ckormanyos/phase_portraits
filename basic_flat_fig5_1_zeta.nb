@@ -1,0 +1,139 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5324,        131]
+NotebookOptionsPosition[      4712,        112]
+NotebookOutlinePosition[      5151,        129]
+CellTagsIndexPosition[      5108,        126]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"f", "[", "z_", "]"}], ":=", 
+   RowBox[{"Zeta", "[", "z", "]"}]}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"SetDirectory", "[", 
+   RowBox[{"NotebookDirectory", "[", "]"}], "]"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Export", "[", 
+   RowBox[{"\"\<basic_flat_fig5_1_zeta.png\>\"", ",", 
+    RowBox[{"DensityPlot", "[", 
+     RowBox[{
+      RowBox[{"Arg", "[", 
+       RowBox[{"f", "[", 
+        RowBox[{"x", "+", 
+         RowBox[{"I", " ", "y"}]}], "]"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", 
+        RowBox[{"-", "30"}], ",", "7"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"y", ",", 
+        RowBox[{"-", "2"}], ",", "42"}], "}"}], ",", 
+      RowBox[{"ColorFunction", "->", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"Hue", "[", 
+          RowBox[{"Mod", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"-", "#"}], "/", 
+             RowBox[{"(", 
+              RowBox[{"2", " ", "Pi"}], ")"}]}], ",", "1"}], "]"}], "]"}], 
+         "&"}], ")"}]}], ",", 
+      RowBox[{"ColorFunctionScaling", "->", "False"}], ",", 
+      RowBox[{"MaxRecursion", "->", "2"}], ",", 
+      RowBox[{"Exclusions", "->", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"x", "==", "0"}], "&&", 
+         RowBox[{"y", "==", "0"}]}], "}"}]}], ",", 
+      RowBox[{"PlotPoints", "->", "1152"}], ",", 
+      RowBox[{"PlotRange", "->", "All"}], ",", 
+      RowBox[{"FrameLabel", "->", 
+       RowBox[{"{", 
+        RowBox[{"\"\<Re(z)\>\"", ",", "\"\<Im(z)\>\""}], "}"}]}]}], "]"}], 
+    ",", 
+    RowBox[{"RasterSize", "->", "2048"}], ",", 
+    RowBox[{"ImageSize", "->", "256"}]}], "]"}], 
+  "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"SystemOpen", "[", 
+  RowBox[{"Directory", "[", "]"}], "]"}], "\n"}], "Input",
+ CellChangeTimes->{{3.976546238446148*^9, 3.976546238446148*^9}, {
+   3.976546306728243*^9, 3.976546309699127*^9}, 3.976546432416794*^9, {
+   3.976546776173311*^9, 3.976546776764221*^9}, {3.976546812053868*^9, 
+   3.976546819442888*^9}, {3.976547554901865*^9, 3.976547555425743*^9}, 
+   3.97660474226803*^9, {3.9766048119799385`*^9, 3.976604834978998*^9}, {
+   3.976604880172785*^9, 3.976604901213146*^9}, {3.976604959514559*^9, 
+   3.976604992244474*^9}, {3.976605043503959*^9, 3.976605079523351*^9}, {
+   3.9766057002202168`*^9, 3.976605709215277*^9}, 3.976678956909961*^9, {
+   3.976679622644213*^9, 3.9766796470422173`*^9}, {3.976679823687408*^9, 
+   3.976679827266704*^9}, {3.976880130282608*^9, 3.976880134659857*^9}, {
+   3.976975730014152*^9, 3.976975733635427*^9}, 3.977060054648997*^9, {
+   3.9770606309351597`*^9, 3.9770606314485683`*^9}},
+ CellLabel->"In[26]:=",ExpressionUUID->"4b349670-afe1-fc45-9fe4-ca40c8a2dc22"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\ckorm\\\\Documents\\\\Ks\\\\PC_Software\\\\\
+Mathematica\\\\PhasePortraits\"\>"], "Output",
+ CellChangeTimes->{3.976546277790596*^9, 3.9765463148212*^9, 
+  3.976546435370148*^9, 3.976546780975712*^9, 3.976546824997349*^9, 
+  3.976546936715133*^9, 3.976547559564951*^9, 3.976604756842457*^9, 
+  3.976604844076961*^9, 3.976604912956758*^9, 3.976604995308698*^9, 
+  3.976605084582971*^9, 3.976605722408264*^9, 3.976678968354324*^9, 
+  3.976679836886959*^9, 3.9768801416303654`*^9, 3.976975849183796*^9, 
+  3.9770600568249416`*^9, 3.977060635261675*^9, 3.9770610305263176`*^9},
+ CellLabel->"Out[27]=",ExpressionUUID->"c1d8c5ae-c2e2-8844-9922-24c50a4b5fdd"],
+
+Cell[BoxData["\<\"basic_flat_fig5_1_zeta.png\"\>"], "Output",
+ CellChangeTimes->{3.976546277790596*^9, 3.9765463148212*^9, 
+  3.976546435370148*^9, 3.976546780975712*^9, 3.976546824997349*^9, 
+  3.976546936715133*^9, 3.976547559564951*^9, 3.976604756842457*^9, 
+  3.976604844076961*^9, 3.976604912956758*^9, 3.976604995308698*^9, 
+  3.976605084582971*^9, 3.976605722408264*^9, 3.976678968354324*^9, 
+  3.976679836886959*^9, 3.9768801416303654`*^9, 3.976975849183796*^9, 
+  3.9770600568249416`*^9, 3.977060635261675*^9, 3.9770611132366676`*^9},
+ CellLabel->"Out[28]=",ExpressionUUID->"cfcaea87-eb9a-7e46-b48e-f0d2cd6eb8fb"]
+}, Open  ]]
+},
+WindowSize->{571.8, 627},
+WindowMargins->{{Automatic, 113.40000000000009`}, {
+  46.80000000000007, Automatic}},
+FrontEndVersion->"14.0 for Microsoft Windows (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"4b4d7c7b-957c-ba4d-843b-15c1e94de683"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 2803, 66, 276, "Input",ExpressionUUID->"4b349670-afe1-fc45-9fe4-ca40c8a2dc22"],
+Cell[3386, 90, 685, 9, 52, "Output",ExpressionUUID->"c1d8c5ae-c2e2-8844-9922-24c50a4b5fdd"],
+Cell[4074, 101, 622, 8, 32, "Output",ExpressionUUID->"cfcaea87-eb9a-7e46-b48e-f0d2cd6eb8fb"]
+}, Open  ]]
+}
+]
+*)
+
