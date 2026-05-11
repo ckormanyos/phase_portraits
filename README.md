@@ -11,7 +11,7 @@ The full selection of phase portraits can be found in the [images/gallery](./ima
 folder. Each image is represented in a colorful $2048{\times}2048$ pixel PNG.
 
 An example is shown below in `basic_flat_sin_one_over_z_no_axes.png`.
-Here we show the phase portrait of the function
+Here we observe the phase portrait of the function
 
 $$
 \sin\left(\dfrac{1}{z}\right)
